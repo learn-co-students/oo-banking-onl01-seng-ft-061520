@@ -1,3 +1,6 @@
+# frozen_string_literal: false
+
+# a transfer class closely linked to the bank account class
 class Transfer
   # your code here
   attr_accessor :sender, :receiver, :amount, :status

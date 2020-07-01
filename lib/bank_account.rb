@@ -1,3 +1,6 @@
+# frozen_string_literal: false
+
+# a bank account class with a name, balance, and status
 class BankAccount
   attr_accessor :balance, :status
   attr_reader :name
