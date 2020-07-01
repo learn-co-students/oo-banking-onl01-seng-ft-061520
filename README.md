@@ -10,7 +10,7 @@ We're going to build a `BankAccount` class where one instance of the class can t
 
 Transfers start out in a "pending" status. They can be executed and go to a "complete" state. They can also go to a "rejected" status. A completed transfer can also be reversed and go into a "reversed" status.
 
-## Instructions
+## Instructions ##
 
 Pass the tests. They are deliberatively vague; your design is up to you! Read the test output and test files very carefully to get through this one. 
 
