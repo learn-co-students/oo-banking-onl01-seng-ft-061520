@@ -1,6 +1,5 @@
 class BankAccount
     attr_accessor  :status, :balance
-    attr_writer
     attr_reader :name
 
     @@all = []
@@ -24,7 +23,15 @@ class BankAccount
     end
 
     def valid?
-        self.one?[{}]
+        if (balance>0) && (status == "open")
+            true
+        else
+            false
+        end
+    end
+
+    def close_account
+        self.status = "closed"
     end
 
 
